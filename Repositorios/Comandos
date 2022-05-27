@@ -1,0 +1,6 @@
+En este archivo se mostraran los principales comandos necesarios para la creación
+de repositorios desde la terminal de Ubuntu, así como su modificación y actualización.
+
+Comandos
+
+ls -Se utiliza para mostrar las carpetas o archivos que actualmente se encuentran en la carpeta en donde estamos
