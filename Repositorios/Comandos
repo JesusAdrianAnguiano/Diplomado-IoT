@@ -23,8 +23,8 @@ cd .. -Nos regresa a la carpeta que contiene la carpeta o archivo en donde actua
 cd [carpeta] -Abre la carpeta especificada, los corchetes son ejemplo, en caso de ser un archivo con un nombre de 2 o más cadenas
 de caracteres se utilizan comillas. **Ejemplo**: cd "Actividad 1".
  
-touch [archivo.extensión] -Crea un archivo especificado por la extensión en la carpeta en donde estamos. **Ejemplo:** touch texto.txt. Este comando creara en la carpeta
-actual un archivo de texto llamado "texto".
+touch [archivo.extensión] -Crea un archivo especificado por la extensión en la carpeta en donde estamos. **Ejemplo:** touch texto.txt. 
+Este comando creara en la carpeta actual un archivo de texto llamado "texto".
 
 cat [archivo] -Permite visualizar la información de un archivo pero no modificarlo.
 
