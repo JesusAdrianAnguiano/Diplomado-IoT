@@ -16,7 +16,9 @@ sudo -i -Abre la terminal como el usuario raiz, se puede salir de esta configura
 
 ls -Se utiliza para mostrar las carpetas o archivos que actualmente se encuentran en la carpeta en donde estamos.
 
-cd -Nos regresa a la carpeta del usuario.
+ls -la -Permite mostrar los archivos ocultos.
+
+cd -Nos regresa a la carpeta del usuario o home.
 
 cd .. -Nos regresa a la carpeta que contiene la carpeta o archivo en donde actualmente estamos.
 
