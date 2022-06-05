@@ -1,6 +1,23 @@
-# Diplomado-IoT
-En este repositorio se documentaran los apuntes realizados en clase, así como los ejercicios, referencias y archivos. Además, algunos escritos o textos que sean relativamente relacionados o notablemente valiosos.
+# **COMANDOS PARA GIT Y GITHUB**
 
-El primer tema que documentaré dentro de este repositorio es el de como crear uno en GitHub, conectarlo a GitHub Desktop, modiificarlo de forma remota desde Visual Studio Code y hacer los respectivos commits. (Modificación realizada desde terminal y con bloc de notas Gedit)
+En este archivo se mostraran los principales comandos necesarios para la creación
+de repositorios locales en Git y remotos desde GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
 
-Posteriormente realizare una guía de formato para la creación de documentos en Visual Studio Code. (Modificación realizada desde Visual Studio Code, utilizando GitHub Desktop para efectuar commit y posteriormente push)
+
+### Crear repositorios
+1. Primero se debe crear una carpeta en donde se encontrará el repositorio.
+2. Para crear repositorios en Git desde la terminal se utiliza el comando:
+~~~
+git init [nombre del repositorio]
+~~~
+3. Asegurate de usar este comando estando en la direccion de tu carpeta
+4. Cuando se ejecuta el comando se crea una carpeta y dentro de esta un archivo oculto llamado .git
+
+### Analizar si los archivos sufrieron cambios
+Git se encarga de revisar si los archivos dentro de tu repositorio están modificados, de ser así, al ejecutar el comando:
+~~~
+git status
+~~~
+Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
+### Supervisar archivos ó fase de stage
+Cuando modificamos un archivo y lo guardamos

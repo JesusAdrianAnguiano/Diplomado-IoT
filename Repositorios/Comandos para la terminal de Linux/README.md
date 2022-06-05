@@ -1,7 +1,7 @@
 # **COMANDOS PARA LA TERMINAL DE LINUX**
 
-En este archivo se mostraran los principales comandos necesarios para la creación
-de repositorios desde la terminal de Ubuntu, así como su modificación y actualización.
+En este archivo se mostraran los principales comandos de Linux para manejar archivos y 
+moverse entre las carpetas desde la terminal.
 
 
 ### Ctrl+Alt+T 
