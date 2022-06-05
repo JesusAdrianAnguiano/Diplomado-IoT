@@ -1,7 +1,5 @@
 # **COMANDOS PARA LA TERMINAL DE LINUX**
 
-### Ctrl+Alt+T 
-
 En este archivo se mostraran los principales comandos necesarios para la creación
 de repositorios desde la terminal de Ubuntu, así como su modificación y actualización.
 
