@@ -1,5 +1,7 @@
 # **COMANDOS PARA LA TERMINAL DE LINUX**
 
+### Ctrl+Alt+T 
+
 En este archivo se mostraran los principales comandos necesarios para la creación
 de repositorios desde la terminal de Ubuntu, así como su modificación y actualización.
 
@@ -15,14 +17,14 @@ terminal drectamente en la dirección de la carpeta.
 ### sudo 
 -Se utiliza para ejecutar un comando como administrador o usuario raíz, generalmente se utiliza al principio del comando.
 
-### sudo 
--i -Abre la terminal como el usuario raiz, se puede salir de esta configuración utilizando Ctrl+D.
+### sudo -i 
+-Abre la terminal como el usuario raiz, se puede salir de esta configuración utilizando Ctrl+D.
 
 ### ls 
 -Se utiliza para mostrar las carpetas o archivos que actualmente se encuentran en la carpeta en donde estamos.
 
-### ls 
--la -Permite mostrar los archivos ocultos.
+### ls -la 
+-Permite mostrar los archivos ocultos.
 
 ### cd 
 -Nos regresa a la carpeta del usuario o home.
