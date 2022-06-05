@@ -5,6 +5,7 @@ En este archivo se añadirá teoria de Git y GitHub además se mostraran los pri
 ## Git y GitHub
 
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. -Wikipedia.
+ 
 >GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. -Wikipedia.
 
 Básicamente son para generar repositorios, en estos puedes controlar las versiones que se van creando de un proyecto (por lo general de programación), además estos repositorios pueden ser remotos, es decir, pueden trabajar como servidores, el equipo de trabajo de un proyecto puede adjuntar o descargar contenido desde la plataforma de GitHub.
