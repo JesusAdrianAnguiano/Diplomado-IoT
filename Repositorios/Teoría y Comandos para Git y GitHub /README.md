@@ -1,5 +1,7 @@
 # **TEORÍA Y COMANDOS PARA GIT Y GITHUB**
-
+***
+---
+___
 En este archivo se añadirá teoria de Git y GitHub además se mostraran los principales comandos necesarios para la creación de repositorios locales en Git y remotos desde GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
 
 ## Git y GitHub
