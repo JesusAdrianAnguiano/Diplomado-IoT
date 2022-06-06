@@ -20,7 +20,7 @@ git init [nombre del repositorio]
 ~~~
 3. Asegurate de usar este comando estando en la direccion de tu carpeta
 4. Cuando se ejecuta el comando se crea una carpeta y dentro de esta un archivo oculto llamado .git
-
+![nombre de la imagen][img1]
 ### Analizar si los archivos sufrieron cambios
 Git se encarga de revisar si los archivos dentro de tu repositorio están modificados, de ser así, al ejecutar el comando:
 ~~~
