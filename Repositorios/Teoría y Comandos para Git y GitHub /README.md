@@ -20,7 +20,9 @@ git init [nombre del repositorio]
 ~~~
 3. Asegurate de usar este comando estando en la direccion de tu carpeta
 4. Cuando se ejecuta el comando se crea una carpeta y dentro de esta un archivo oculto llamado .git
+
 ![nombre de la imagen][img1]
+
 ### Analizar si los archivos sufrieron cambios
 Git se encarga de revisar si los archivos dentro de tu repositorio están modificados, de ser así, al ejecutar el comando:
 ~~~
@@ -30,4 +32,4 @@ Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modifi
 ### Supervisar archivos ó fase de stage
 Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, o lo que es
 
-[img1]: /home/adrian/Pictures/Screenshot from 2022-06-05 21-38-13.png "Título alternativo"
+[img1]: https://git-scm.com/images/about/index1@2x.png "Título alternativo"
