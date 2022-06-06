@@ -1,7 +1,5 @@
 # **TEORÍA Y COMANDOS PARA GIT Y GITHUB**
-***
----
-___
+
 En este archivo se añadirá teoria de Git y GitHub además se mostraran los principales comandos necesarios para la creación de repositorios locales en Git y remotos desde GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
 
 ## Git y GitHub
@@ -9,7 +7,7 @@ En este archivo se añadirá teoria de Git y GitHub además se mostraran los pri
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. -Wikipedia.
  
 >GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. -Wikipedia.
-
+***
 Básicamente son para generar repositorios, en estos puedes controlar las versiones que se van creando de un proyecto (por lo general de programación), además estos repositorios pueden ser remotos, es decir, pueden trabajar como servidores, el equipo de trabajo de un proyecto puede adjuntar o descargar contenido desde la plataforma de GitHub.
 
 
@@ -30,4 +28,6 @@ git status
 ~~~
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
 ### Supervisar archivos ó fase de stage
-Cuando modificamos un archivo y lo guardamos
+Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, o lo que es
+
+[img1]: /home/adrian/Pictures/Screenshot from 2022-06-05 21-38-13.png "Título alternativo"
