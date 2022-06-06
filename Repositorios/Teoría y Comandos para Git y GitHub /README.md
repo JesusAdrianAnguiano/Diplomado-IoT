@@ -28,8 +28,7 @@ git status
 ~~~
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
 ### Supervisar archivos ó fase de stage
-![Staging Area][img1]
+
+![Staging Area](https://git-scm.com/images/about/index1@2x.png){width=250 height=150}
 
 Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, o lo que es
-
-[img1]:(https://git-scm.com/images/about/index1@2x.png){width='250px'} "Staging Area"
