@@ -32,7 +32,7 @@ Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modifi
 ### Supervisar archivos ó fase de staging
 
 <p> 
-<img src="https://git-scm.com/images/about/index1@2x.png" width="350px"align="left">Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, que es mover los archivos supervisados previamente a un pre-commit, es decir, eliges los archivos a los que les harás posteriormente un commit, esto se procede utilizando el comando:
+<img src="https://git-scm.com/images/about/index1@2x.png" width="500px"align="left">
 </p>
 
 
