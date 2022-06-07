@@ -1,6 +1,6 @@
 # **TEORÍA Y COMANDOS PARA GIT Y GITHUB**
 
-En este archivo se añadirá teoria de Git y GitHub además se mostraran los principales comandos necesarios para la creación de repositorios locales en Git y remotos desde GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
+En este archivo se añadirá teoria de Git y GitHub además se mostraran los principales comandos necesarios para la creación de repositorios locales en Git y remotos con GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
 ***
 ## Git y GitHub
 
@@ -91,3 +91,7 @@ Para cambiar de rama utilizamos:
 ~~~
 git checkout [nombre de la rama]
 ~~~
+
+### Moverse entre versiones
+
+Para movernos entre versiones en una rama debemos tener 
