@@ -11,7 +11,6 @@ En este archivo se añadirá teoria de Git y GitHub además se mostraran los pri
 Básicamente son para generar repositorios, en estos puedes controlar las versiones que se van creando de un proyecto (por lo general de programación), además estos repositorios pueden ser remotos, es decir, pueden trabajar como servidores, el equipo de trabajo de un proyecto puede adjuntar o descargar contenido desde la plataforma de GitHub.
 
 
-
 ### Crear repositorios
 
 1. Primero se debe crear una carpeta en donde se encontrará el repositorio.
@@ -29,12 +28,12 @@ Git se encarga de revisar si los archivos dentro de tu repositorio están modifi
 git status
 ~~~
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
-   ### Supervisar archivos ó fase de staging
+
+### Supervisar archivos ó fase de staging
 
 <p> 
 <img src="https://git-scm.com/images/about/index1@2x.png" width="500px"align="left">
 </p>
-
 
 Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, que es mover los archivos supervisados previamente a un pre-commit, es decir, eliges los archivos a los que les harás posteriormente un **commit**, esto se procede utilizando el comando:
 ~~~
@@ -78,3 +77,19 @@ git show
 
 Al utilizar el comando "git init" creamos una rama master o **principal(main)**, además, también se crea una **cabeza(head)** que indica la posición más actual de tu proyecto.
 Se pueden crear copias exactas de la rama main y sus versiones anteriores, a esto le denomina **rama(branch)**, en estas se pueden crear modificaciones que no afecten a la rama main, además también se pueden usar como pruebas, se pueden crear tantas ramas como quieras.
+
+
+Para crear una rama ejecutamos el comando:
+~~~
+git branch [nombre de la rama]
+~~~
+Esta rama se copiara de la rama en la que estamos actualmente.
+
+Para visualizar las ramas y ver en cual estamos usamos:
+~~~
+git branch
+~~~
+
+Para cambiar de rama utilizamos:
+~~~
+git checkout [nombre de la rama]~~~
