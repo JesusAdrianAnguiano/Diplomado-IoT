@@ -29,7 +29,7 @@ Git se encarga de revisar si los archivos dentro de tu repositorio están modifi
 git status
 ~~~
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
-###    Supervisar archivos ó fase de staging
+   ### Supervisar archivos ó fase de staging
 
 <p> 
 <img src="https://git-scm.com/images/about/index1@2x.png" width="500px"align="left">
@@ -69,6 +69,7 @@ Si además de ver los commits queremos ver los cambios dentro de estos utilizamo
 ~~~
 git show
 ~~~
+
 <p> 
 <img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">
 </p>
