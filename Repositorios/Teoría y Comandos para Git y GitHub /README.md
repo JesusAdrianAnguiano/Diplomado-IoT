@@ -7,7 +7,7 @@ En este archivo se añadirá teoria de Git y GitHub además se mostraran los pri
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. -Wikipedia.
  
 >GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. -Wikipedia.
-***
+
 Básicamente son para generar repositorios, en estos puedes controlar las versiones que se van creando de un proyecto (por lo general de programación), además estos repositorios pueden ser remotos, es decir, pueden trabajar como servidores, el equipo de trabajo de un proyecto puede adjuntar o descargar contenido desde la plataforma de GitHub.
 ***
 ### Crear repositorios
@@ -72,17 +72,16 @@ git show
 <img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">
 </p>
 
+***
 ## Referente a versiones y ramas
 
 Al utilizar el comando "git init" creamos una rama master o **principal(main)**, además, también se crea una **cabeza(head)** que indica la posición más actual de tu proyecto.
 Se pueden crear copias exactas de la rama main y sus versiones anteriores, a esto le denomina **rama(branch)**, en estas se pueden crear modificaciones que no afecten a la rama main, además también se pueden usar como pruebas, se pueden crear tantas ramas como quieras.
 
-
-Para crear una rama ejecutamos el comando:
+Cuando creamos una rama esta se copiara de la rama en la que estamos actualmente. Para crear una rama ejecutamos el comando:
 ~~~
 git branch [nombre de la rama]
 ~~~
-Esta rama se copiara de la rama en la que estamos actualmente.
 
 Para visualizar las ramas y ver en cual estamos usamos:
 ~~~
@@ -91,4 +90,5 @@ git branch
 
 Para cambiar de rama utilizamos:
 ~~~
-git checkout [nombre de la rama]~~~
+git checkout [nombre de la rama]
+~~~
