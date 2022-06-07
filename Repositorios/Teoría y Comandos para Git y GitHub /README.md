@@ -91,7 +91,10 @@ Para cambiar de rama utilizamos:
 ~~~
 git checkout [nombre de la rama]
 ~~~
-
+***
 ### Moverse entre versiones
 
-Para movernos entre versiones en una rama debemos tener 
+Para movernos entre versiones en una rama debemos tener en cuenta que solo podemos regresar a los commits, es decir, podemos regresar solo a las versiones en donde realizamos un commit, para esto necesitamos saber el código único del commit que aparece en **verde** ejecutando el comando "git log --version" o "git log":
+<div align="center"><img src="https://www.unidadvirtual.com/imagen/10000000/manuales/git/git%20log/git%20log--oneline.jpg" width="700px" ></div>
+
+
