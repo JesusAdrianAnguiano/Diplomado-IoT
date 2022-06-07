@@ -40,7 +40,7 @@ Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, que es
 ~~~
 git add [archivo modificado]
 ~~~
-Cuando tenemos una gran cantidad de archivos en modificados y para no escribir en comandos todos estos utilizamos un comando que envía al area de staging todos los archivos modificados:
+Cuando tenemos una **gran cantidad de archivos en modificados** y para no escribir en comandos todos estos utilizamos un comando que envía al area de staging todos los archivos modificados:
 ~~~
 git add .
 ~~~
@@ -69,11 +69,11 @@ Si además de ver los commits queremos ver los cambios dentro de estos utilizamo
 ~~~
 git show
 ~~~
-
-## Referente a versiones y ramas
 <p> 
 <img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">
 </p>
+
+## Referente a versiones y ramas
 
 Al utilizar el comando "git init" creamos una rama master o **principal(main)**, además, también se crea una **cabeza(head)** que indica la posición más actual de tu proyecto.
 Se pueden crear copias exactas de la rama main y sus versiones anteriores, a esto le denomina **rama(branch)**, en estas se pueden crear modificaciones que no afecten a la rama main, además también se pueden usar como pruebas, se pueden crear tantas ramas como quieras.
