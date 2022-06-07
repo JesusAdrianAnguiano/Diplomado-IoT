@@ -31,11 +31,10 @@ git status
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
 ### Supervisar archivos ó fase de staging
 
-<div>
-<p style = 'text-align:center;'>
-<img src="https://git-scm.com/images/about/index1@2x.png" alt="JuveYell" width="350px">
+<p> 
+<img src="https://git-scm.com/images/about/index1@2x.png" width="350px"align="left">Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, que es mover los archivos supervisados previamente a un pre-commit, es decir, eliges los archivos a los que les harás posteriormente un commit, esto se procede utilizando el comando:
 </p>
-</div>
+
 
 Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, que es mover los archivos supervisados previamente a un pre-commit, es decir, eliges los archivos a los que les harás posteriormente un **commit**, esto se procede utilizando el comando:
 ~~~
@@ -73,7 +72,7 @@ git show
 
 ## Referente a versiones y ramas
 <p> 
-<img src="https://git-scm.com/images/about/branches@2x.png" width="350px" align="right">Al utilizar el comando "git init" creamos una rama master o **principal(main)**, además, también se crea una **cabeza(head)** que indica la posición más actual de tu proyecto.
+<img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">Al utilizar el comando "git init" creamos una rama master o principal(main), además, también se crea una cabeza(head) que indica la posición más actual de tu proyecto.
 Se pueden crear copias exactas de la rama main y sus versiones anteriores, a esto le denomina rama(branch), en estas se pueden crear modificaciones que no afecten a la rama main, además también se pueden usar como pruebas, se pueden crear tantas ramas como quieras.
 </p>
 
