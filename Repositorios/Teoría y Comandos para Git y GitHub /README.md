@@ -1,7 +1,7 @@
 # **TEORÍA Y COMANDOS PARA GIT Y GITHUB**
 
 En este archivo se añadirá teoria de Git y GitHub además se mostraran los principales comandos necesarios para la creación de repositorios locales en Git y remotos desde GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
-
+***
 ## Git y GitHub
 
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. -Wikipedia.
@@ -9,8 +9,7 @@ En este archivo se añadirá teoria de Git y GitHub además se mostraran los pri
 >GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. -Wikipedia.
 ***
 Básicamente son para generar repositorios, en estos puedes controlar las versiones que se van creando de un proyecto (por lo general de programación), además estos repositorios pueden ser remotos, es decir, pueden trabajar como servidores, el equipo de trabajo de un proyecto puede adjuntar o descargar contenido desde la plataforma de GitHub.
-
-
+***
 ### Crear repositorios
 
 1. Primero se debe crear una carpeta en donde se encontrará el repositorio.
@@ -20,7 +19,7 @@ git init [nombre del repositorio]
 ~~~
 3. Asegurate de usar este comando estando en la direccion de tu carpeta
 4. Cuando se ejecuta el comando se crea una carpeta y dentro de esta un archivo oculto llamado .git
-
+***
 ### Analizar si los archivos sufrieron cambios
 
 Git se encarga de revisar si los archivos dentro de tu repositorio están modificados, de ser así, al ejecutar el comando:
@@ -28,7 +27,7 @@ Git se encarga de revisar si los archivos dentro de tu repositorio están modifi
 git status
 ~~~
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
-
+***
 ### Supervisar archivos ó fase de staging
 
 <p> 
@@ -44,7 +43,7 @@ Cuando tenemos una **gran cantidad de archivos en modificados** y para no escrib
 git add .
 ~~~
 Posterior a este comando los archivos modificados que aparecen al ejecutar "git status" aparecerán en **verde**.
-
+***
 ### Crear commits
 
 Un commit es una modificación documentada, en este se muestra quién hizo la modificación, a qué hora la hizo, en que rama, etc. Cada commit tiene un código único con el cual podemos por ejemplo regresar a la versión en la que se hizo este o tambiém ver de que trata la modificación viendo el mensaje que contiene dicho commit.
@@ -53,7 +52,7 @@ Para hacer un commit es necesario tener los archivos en el area de staging, teni
 git commit -m "[Mensaje del commit]"
 ~~~
 Es muy importante colocar un mensaje en el commit, ya que este nos servirá para saber que contienen las modificaciones hechas.
-
+***
 ### Comandos relacionados a commits
 
 Para **visualizar todos los commits** que se han realizado en un archivo de forma detallada se puede ejecutar el comando:
