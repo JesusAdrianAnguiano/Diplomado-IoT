@@ -31,7 +31,7 @@ Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modifi
 ### Supervisar archivos ó fase de staging
 
 <p> 
-<img src="https://git-scm.com/images/about/index1@2x.png" width="500px"align="left">
+<img src="https://git-scm.com/images/about/index1@2x.png" width="250px"align="left">
 </p>
 
 Cuando modificamos un archivo y lo guardamos es necesario hacer un stage, que es mover los archivos supervisados previamente a un pre-commit, es decir, eliges los archivos a los que les harás posteriormente un **commit**, esto se procede utilizando el comando:
@@ -67,12 +67,11 @@ Si además de ver los commits queremos ver los cambios dentro de estos utilizamo
 ~~~
 git show
 ~~~
-
+***
 <p> 
 <img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">
 </p>
 
-***
 ## Referente a versiones y ramas
 
 Al utilizar el comando "git init" creamos una rama master o **principal(main)**, además, también se crea una **cabeza(head)** que indica la posición más actual de tu proyecto.
