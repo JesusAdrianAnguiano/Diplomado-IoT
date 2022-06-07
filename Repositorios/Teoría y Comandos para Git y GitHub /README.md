@@ -29,7 +29,7 @@ Git se encarga de revisar si los archivos dentro de tu repositorio están modifi
 git status
 ~~~
 Nos mostrará si los archivos dentro de la rama en la que estamos ha sido modificada, esto remarcando el nombre del archivo en **rojo**.
-### Supervisar archivos ó fase de staging
+###    Supervisar archivos ó fase de staging
 
 <p> 
 <img src="https://git-scm.com/images/about/index1@2x.png" width="500px"align="left">
@@ -72,7 +72,8 @@ git show
 
 ## Referente a versiones y ramas
 <p> 
-<img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">Al utilizar el comando "git init" creamos una rama master o principal(main), además, también se crea una cabeza(head) que indica la posición más actual de tu proyecto.
-Se pueden crear copias exactas de la rama main y sus versiones anteriores, a esto le denomina rama(branch), en estas se pueden crear modificaciones que no afecten a la rama main, además también se pueden usar como pruebas, se pueden crear tantas ramas como quieras.
+<img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">
 </p>
 
+Al utilizar el comando "git init" creamos una rama master o **principal(main)**, además, también se crea una **cabeza(head)** que indica la posición más actual de tu proyecto.
+Se pueden crear copias exactas de la rama main y sus versiones anteriores, a esto le denomina **rama(branch)**, en estas se pueden crear modificaciones que no afecten a la rama main, además también se pueden usar como pruebas, se pueden crear tantas ramas como quieras.
