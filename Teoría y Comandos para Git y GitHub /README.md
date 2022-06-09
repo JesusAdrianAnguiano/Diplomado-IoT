@@ -96,5 +96,12 @@ git checkout [nombre de la rama]
 
 Para movernos entre versiones en una rama debemos tener en cuenta que solo podemos regresar a los commits, es decir, podemos regresar solo a las versiones en donde realizamos un commit, para esto necesitamos saber el código único del commit que aparece en **verde** ejecutando el comando "git log --version" o "git log":
 <div align="center"><img src="https://www.unidadvirtual.com/imagen/10000000/manuales/git/git%20log/git%20log--oneline.jpg" width="700px" ></div>
-
+Para regresar a la versión seleccionada utilizando el código del commit debemos usar el comando:
+~~~
+git checkout [código del commit]
+~~~
+Para regresar versión más actual de la rama principal ejecutamos:
+~~~
+git checkout [nombre de la rama principal]
+~~~
 
