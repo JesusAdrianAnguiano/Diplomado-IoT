@@ -2,6 +2,10 @@
 
 En este archivo se añadirá teoria de Git y GitHub además se mostraran los principales comandos necesarios para la creación de repositorios locales en Git y remotos con GitHub desde la terminal de Ubuntu, así como su modificación y actualización.
 ***
+<p> 
+<img src="https://es.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" width="150px" align="right">
+</p> 
+
 ## Git y GitHub
 
 > Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. -Wikipedia.
@@ -118,6 +122,8 @@ git checkout [nombre de la rama principal]
 </p>
 
 **Si estás en una rama y haces cambios sin supervisarlos en stage o commit y después cambias de rama es probable que los cambios se puedan PERDER.**
+
+***
 ### Unir ramas (merge)
 Esta opción de GitHub obtiene las ultimas actualizaciones de las ramas que quieres unir, de esta forma se actualizan en la rama actual las modificaciones de la otra.
 Los cambios solo se hacen si existen modififcaciones en las ramas, para obtener las modificaciones de otra rama a la rama en la que estamos utilizamos:
@@ -125,3 +131,8 @@ Los cambios solo se hacen si existen modififcaciones en las ramas, para obtener 
 git merge [rama de donde se quieren obtener los cambios]
 ~~~
 
+### Conflictos y como solucionarlos
+
+Cuando unes 2 ramas y las dos tienen modificaciones diferentes en el mismo archivo en exactamente la misma linea de codigo surge un conflicto. 
+Para solucionar esto solo debemos dirigirnos al archivo en donde se mostraran las 2 versiones, se debe elegir como quedará y posteriormente hacer un commit. 
+ 
