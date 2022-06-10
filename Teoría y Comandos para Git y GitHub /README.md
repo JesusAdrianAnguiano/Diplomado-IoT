@@ -114,7 +114,7 @@ Para regresar versión más actual de la rama principal ejecutamos:
 git checkout [nombre de la rama principal]
 ~~~
 <p> 
-<img src="https://img1.freepng.es/20180425/wdw/kisspng-computer-icons-exclamation-mark-clip-art-warning-light-5ae12e89ebf595.5765118515247069539665.png" width="100px" align="left"> 
+<img src="https://w7.pngwing.com/pngs/968/111/png-transparent-symbol-attention-triangle-warning-sign-words-phrases-thumbnail.png" width="100px" align="left"> 
 </p>
 
 **Si estás en una rama y haces cambios sin supervisarlos en stage o commit y después cambias de rama es probable que los cambios se puedan PERDER.**
