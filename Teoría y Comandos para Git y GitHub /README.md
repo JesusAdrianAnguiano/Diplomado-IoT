@@ -59,14 +59,22 @@ Para **visualizar todos los commits** que se han realizado en un archivo de form
 ~~~
 git log
 ~~~
+
 Para verlos de forma resumida en una linea:
 ~~~
 git log --oneline
 ~~~
+
 Si además de ver los commits queremos ver los cambios dentro de estos utilizamos:
 ~~~
 git show
 ~~~
+
+Para hacer un "git add" y un "git commit" al mismo tiempo utilizamos:
+~~~
+git commit -am "[mensaje]"
+~~~
+Para utilzar este comando debes asegurarte de haber utilizado por lo menos una vez un git add en el archivo.
 ***
 <p> 
 <img src="https://git-scm.com/images/about/branches@2x.png" width="500px" align="right">
@@ -96,6 +104,7 @@ git checkout [nombre de la rama]
 
 Para movernos entre versiones en una rama debemos tener en cuenta que solo podemos regresar a los commits, es decir, podemos regresar solo a las versiones en donde realizamos un commit, para esto necesitamos saber el código único del commit que aparece en **verde** ejecutando el comando "git log --version" o "git log":
 <div align="center"><img src="https://www.unidadvirtual.com/imagen/10000000/manuales/git/git%20log/git%20log--oneline.jpg" width="700px" ></div>
+
 Para regresar a la versión seleccionada utilizando el código del commit debemos usar el comando:
 ~~~
 git checkout [código del commit]
@@ -103,5 +112,16 @@ git checkout [código del commit]
 Para regresar versión más actual de la rama principal ejecutamos:
 ~~~
 git checkout [nombre de la rama principal]
+~~~
+<p> 
+<img src="https://w7.pngwing.com/pngs/75/405/png-transparent-computer-icons-warning-sign-symbol-symbol.png" width="100px" align="left"> 
+</p>
+
+**Si estás en una rama y haces cambios sin supervisarlos en stage o commit y después cambias de rama es probable que los cambios se puedan PERDER.**
+### Unir ramas (merge)
+Esta opción de GitHub obtiene las ultimas actualizaciones de las ramas que quieres unir, de esta forma se actualizan en la rama actual las modificaciones de la otra.
+Los cambios solo se hacen si existen modififcaciones en las ramas, para obtener las modificaciones de otra rama a la rama en la que estamos utilizamos:
+~~~
+git merge [rama de donde se quieren obtener los cambios]
 ~~~
 
